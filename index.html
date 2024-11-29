@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-6">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--FONT AWESOME-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--MAIN CSS-->
+        <link rel="stylesheet" href="style.css">
+        <titlew>Personal Portfolio</titlew>
+    </head>
+    <body>
+        <!--HEADER DESIGN-->
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+            <nav class="navbar"> 
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>    
+        
+        <!--HOME SECTION DESIGN-->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi Everyone</h3>
+                <h1>Matthew Valderama</h1>
+                <h3>I'm a <span class="multiple-text">Photographer & Videographer</span></h3>
+                <p>I want to capture some moments that I want to remember.</p>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="#" class="btn">Home</a>
+            </div>
+            <div class="home-img">
+                <img src="IMG_0709.JPG" alt="">
+            </div>
+        </section>
+
+
+        <!--ABOUT SECTION DESIGN-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="IMG_4996.JPG" alt="">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">ABOUT<span>Me</span></h2>
+                <h3>Photographer  and Videography</h3>
+                <p>I started photography and videography since 2019 and it is one of my hobby.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <!--ABOUT SECTION DESIGN-->
+        <section class="services" id="services">
+            <h2 class="heading">My<span>Skills</span></h2>
+
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="fa-solid fa-camera"></i>
+                    <h3>Photography</h3>
+                    <p>I always involve mastering technical aspects like exposure, focus, and composition to capture visually striking images. Equally important is developing a creative eye to tell compelling stories and evoke emotions through the lens.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="services-box">
+                    <i class="fa-solid fa-video"></i>
+                    <h3>Videography</h3>
+                    <p>I encompass the ability to use cameras, lighting, and sound equipment effectively to create high-quality video content. Additionally, it requires an understanding of storytelling, editing techniques, and pacing to engage audiences and convey messages powerfully.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+          <!--PORTFOLIO SECTION DESIGN-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">My<span>Projects</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="IMG_2722.JPG" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Universe of Fire Particles</h4>
+                        <p>Located around in Tokyo and it has an art exhibit called TeamLabs.</p>
+                        <i class="fa-solid fa-share-from-square"></i>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="divercity.jpeg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Photo</h4>
+                        <p>Famous mall in Odaiba Tokyo.</p>
+                        <i class="fa-solid fa-share-from-square"></i>
+                    </div>
+                </div>
+                
+                <div class="portfolio-box">
+                    <img src="hachiko.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Hachiko</h4>
+                        <p>A statue about a loyal dog located in Shibuya Tokyo</p>
+                        <i class="fa-solid fa-share-from-square"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+            <!--CONTACTS SECTION DESIGN-->
+            <section class="contact" id="contact">
+                <h2 class="heading">Contact<span>Me</span></h2>
+
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+
+                    <div class="input-box">
+                        <input type="number" placeholder="Contact Number">
+                        <input type="text" placeholder="Your Location">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </form>
+            </section>
+            <!--FOOTER DESIGN-->
+             
+            <footer class="footer">
+                <div class="footer-text">
+                    <p>Copyright &copy; 2024 by MV Photography</p>
+                </div>
+
+                <div calss="footer-iconTop">
+                    <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+                </div>
+            </footer>
+
+            <!--SCROLL REVEAL JS-->
+            <script src="https://unpkg.com/scrollreveal"></script>
+            
+             <!--TYPED REVEAL JS-->
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+             <!--MAIN JS-->
+        <script src="script.js"></script>
+    </body>
+</html>
